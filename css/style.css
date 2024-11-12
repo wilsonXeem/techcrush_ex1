@@ -1,0 +1,213 @@
+*, html, body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+h2 {
+    letter-spacing: 1.4rem;
+    padding-top: 90px;
+}
+
+h4 {
+    letter-spacing: 1.5rem;
+}
+
+
+.pt {
+    padding-top: 150px;
+}
+
+
+.services .icon-box .icon {
+  margin: 0 auto;
+  height: 100px;
+}
+
+
+@media (max-width: 767px) {
+    .tour-text {
+      width: 100%;
+      margin-top: 0.7rem;
+    }
+  
+    .tour-img {
+     display: none;
+    }
+  
+    .tour-text-1 {
+      padding-bottom: 0;
+      margin-bottom: 0.2rem;
+    }
+
+  .world {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .world-section {
+      padding: 20px;
+    }
+  
+    .testimony-section {
+      padding-left: 150px;
+    }
+  
+    .card-1 {
+      padding: 20px;
+    }
+
+  }
+
+
+@media (max-width: 575px) {
+  .tour-text {
+    width: 100%;
+    margin-top: 0.7rem;
+  }
+  
+  .tour-img {
+    display: none;
+  }
+  
+  .tour-text-1 {
+     padding-bottom: 0;
+     margin-bottom: 0.2rem;
+  }
+
+  
+  .world {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .world-section {
+      padding: 20px;
+    }
+  
+    .testimony-section {
+      padding-left: 150px;
+    }
+  
+    .card-1 {
+      padding: 20px;
+    }
+  
+  
+  }
+
+  @media (max-width: 425px) {
+    .tour-text {
+      width: 100%;
+      margin-top: 0.7rem;
+    }
+  
+    .tour-img {
+      display: none;
+    }
+  
+    .tour-text-1 {
+      padding-bottom: 0;
+      margin-bottom: 0.2rem;
+    }
+  
+  .world {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .world-section {
+      padding: 20px;
+    }
+  
+    .testimony-section {
+      flex-direction: column;
+      padding-left: 50px;
+    }
+  
+    .card-1 {
+      padding: 20px;
+    }
+  
+  
+  }
+
+  @media (max-width: 375px) {
+    .tour-text {
+      width: 100%;
+      margin-top: 0.7rem;
+    }
+  
+    .tour-img {
+      display: none;
+    }
+  
+    .tour-text-1 {
+      padding-bottom: 0;
+      margin-bottom: 0.2rem;
+    }
+  
+   .world {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .world-section {
+      padding: 20px;
+    }
+  
+    .testimony-section {
+      padding: 0 30px 10px 30px;
+    }
+  
+    .card-1 {
+      padding: 20px;
+    }
+    
+  
+  }
+
+@media (max-width: 320px) {
+
+  h2 {
+    letter-spacing: 1rem;
+  }
+
+  .tour-text {
+    width: 100%;
+    margin-top: 0.7rem;
+  }
+
+  .tour-img {
+    display: none;
+  }
+
+  .tour-text-1 {
+    padding-bottom: 0;
+    margin-bottom: 0.2rem;
+  }
+
+ .world {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .world-section {
+    padding: 20px;
+  }
+
+  .testimony-section {
+    flex-direction: column;
+    padding-bottom: 15px;
+  }
+
+  .card-1 {
+    padding: 20px;
+  }
+ 
+}
+
+
+
